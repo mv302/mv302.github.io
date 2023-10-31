@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Trading Page</title>
+    <!-- Include necessary libraries for charting -->
+    <!-- Add your custom styles and scripts here -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        .blue-bar {
+            background-color: skyblue;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .blue-bar a {
+            color: white;
+            text-decoration: none;
+            border: 1px solid white;
+            margin-left: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .blue-bar a.active {
+            background-color: #3498db;
+            color: white;
+        }
+
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        button {
+            background-color: #27ae60;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: 5px;
+        }
+
+
+    </style>
+
+    
+</head>
+<body>
+    <div class="blue-bar">
+        <h1>Prex - Predictive Stock Exchange</h1>
+        <a href="main.html">Home</a>
+        <a href="profile.html">Profile</a>
+        <a href="about.html">About</a>
+        <a href="#">Training Personalized AI Bots</a>
+    </div>
+    <div class="container">
+        <section class="live-graph">
+            <h2>Live Graph</h2>
+            <img src="image.png" alt="Live Graph Image" style="width: 100%; max-width: 1000px;">      
+            <h6> it will be live & automated</h6>
+        </section>
+        <section class="prediction-visualization">
+            <h2>Prediction Visualization</h2>
+            <!-- Add your prediction visualization elements here -->
+        </section>
+        <section class="automation">
+            <h2>Automation</h2>
+            <label for="automation-toggle">Automate Trading:</label>
+            <input type="checkbox" id="automation-toggle">
+        </section>
+        <section class="buy-sell-buttons">
+            <h2>Buy / Sell</h2>
+            <button id="buy-button">Buy</button>
+            <button id="sell-button" style="background-color: red; color: white;">Sell</button>
+        </section>
+        <section class="ai-bots">
+            <h2>AI Bots</h2>
+            <p>Choose an AI bot from top investors:</p>
+            <!-- Add a selection menu for AI bots -->
+        </section>
+    </div>
+    <script>
+        // JavaScript code for handling trading actions, charting, etc.
+        // Add your trading logic and charting setup here
+    </script>
+</body>
+</html>

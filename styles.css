@@ -1,0 +1,50 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.blue-bar {
+    background-color: skyblue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blue-bar a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.active {
+    background-color: #3498db;
+    color: white;
+}
+
+.live-graph, .prediction-visualization, .automation, .buy-sell-buttons, .ai-bots {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+}
+
+.buy-button, .sell-button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.buy-button:hover, .sell-button:hover {
+    background-color: #219a54;
+}

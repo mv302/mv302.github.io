@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+         .blue-bar {
+            background-color: skyblue;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .blue-bar a {
+            color: white;
+            text-decoration: none;
+            border: 1px solid white;
+            margin-left: 10px;
+            padding: 10px;
+        }
+
+        .blue-bar h1 {
+            color: whitesmoke;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .news, .polls {
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+
+        .poll-submit {
+            margin-top: 10px;
+        }
+    </style>
+    <!-- Add your head content here -->
+</head>
+<body>
+    <div class="blue-bar">
+        <h1>Prex - Predictive Stock Exchange</h1>
+        <a href="main.html">Home</a> <!-- Link back to the main page -->
+        <a href="about.html">About</a>
+        <a href="#">Training Personalized AI Bots</a>
+        <a href="trading.html">Main Trading Page</a>
+    </div>
+    <div class="container">
+        <section class="profile-summary">
+            <h2>Stock Market Summary</h2>
+            <p>Here is a summary of your stock market activities:</p>
+            <ul>
+                <li>
+                    <strong>Portfolio Value:</strong> $100,000
+                </li>
+                <li>
+                    <strong>Today's Gain/Loss:</strong> +$1,200
+                </li>
+            </ul>
+        </section>
+        <section class="accounts-list">
+            <h2>Accounts</h2>
+            <ul>
+                <li>
+                    <strong>Account Name:</strong> Reliance Investments
+                    <br>
+                    <strong>Balance:</strong> $50,000
+                </li>
+                <li>
+                    <strong>Account Name:</strong> Apple Stock Brokers
+                    <br>
+                    <strong>Balance:</strong> $70,000
+                </li>
+                <!-- Add more accounts as needed -->
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
